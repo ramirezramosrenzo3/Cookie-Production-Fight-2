@@ -1,0 +1,16 @@
+{
+  "name": "Cookie Production Fight! 2",
+  "short_name": "Cookie Fight 2",
+  "description": "Produce, distribuye y vende galletas. ¡Supera a tu rival!",
+  "lang": "es",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFF7ED",
+  "theme_color": "#8B5E3C",
+  "icons": [
+    { "src": "img/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "img/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
