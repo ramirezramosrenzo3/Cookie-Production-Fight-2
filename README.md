@@ -9,6 +9,8 @@ Juego multijugador de cadena de suministro para celulares: 2 equipos × (Fábric
 <img src="docs/img/home-oscuro.webp" width="220" alt="Inicio en modo oscuro">
 </p>
 
+**Jugar:** https://ramirezramosrenzo3.github.io/Cookie-Production-Fight-2/ (requiere activar GitHub Pages, ver [`docs/DESPLIEGUE.md`](docs/DESPLIEGUE.md)).
+
 ## Cómo se juega
 
 Cada equipo maneja una cadena de galletas. La **Fábrica** elige calidad y producción, el **Distribuidor** hace pedidos y puja por influencers, la **Tienda** fija precios y pide mercadería. Todo tarda 2 semanas en llegar, el mercado se reparte entre los dos equipos y hay eventos (Navidad, huelgas, ratas…) y sabotajes (Incendio, Fake News, GTA). Gana quien tenga más dinero al final.

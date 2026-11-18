@@ -25,7 +25,8 @@ npm run dev
 
 1. En el repositorio: **Settings → Pages → Source: GitHub Actions**.
 2. **Settings → Secrets and variables → Actions → Variables:** crea `VITE_SUPABASE_URL` y `VITE_SUPABASE_ANON_KEY` (son públicas por diseño; van como variables, no secretos).
-3. Cada push a `main` ejecuta `.github/workflows/deploy.yml` y publica `dist/`.
+3. Si el primer deploy falló con "Ensure GitHub Pages has been enabled", activa Pages (paso 1) y vuelve a ejecutar **Actions → Deploy a GitHub Pages → Re-run jobs**.
+4. Cada push a `main` ejecuta `.github/workflows/deploy.yml` y publica `dist/`.
 
 Cualquier hosting estático sirve (Vercel, Netlify, Cloudflare Pages): comando `npm run build`, carpeta `dist`.
 
